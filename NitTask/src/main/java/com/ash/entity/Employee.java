@@ -63,5 +63,6 @@ public class Employee
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "splID", referencedColumnName = "socialProfileId")
     public SocialProfilesLinks socialProfilesLinks;
+    //jdjd
 
 }
